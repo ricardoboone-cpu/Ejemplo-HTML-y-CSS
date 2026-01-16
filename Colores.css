@@ -1,0 +1,35 @@
+div{
+    width: 200px;
+    height: 200px;
+}
+/*Palabras clave*/
+#aplicacolor1{
+    background-color: red;
+}
+/*Hexadecimal*/
+#aplicacolor2{
+    background-color: #0a95b8;
+}
+/*RGB*/
+#aplicacolor3{
+    background-color: rgb(100,220,25);
+}
+/*HSL*/
+#aplicacolor4{
+    background-color: hsl(60, 93%, 50%);
+}
+/*linear-gradient*/
+#aplicacolor5{
+    background: linear-gradient(90deg, #7a00bb, rgb(255, 171, 248));
+}
+/*radial-gradient*/
+#aplicacolor6{
+    background: radial-gradient(rgb(207, 207, 255),rgb(132, 163, 255),rgb(79, 88, 249),rgb(21, 0, 255));
+}
+
+#ImagenCuadro{
+    width: 300px;
+    height: 300px;
+
+    background: blue url(img/Dou.gif) no-repeat center;
+}
